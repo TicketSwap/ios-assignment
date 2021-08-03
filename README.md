@@ -38,7 +38,7 @@ of the Spotify API
 - You can decide on your own how will the app look, if you need a guide, feel free to look at the TicketSwap app as an example.
 
 ### Third party libraries
-- You are encouraged to used the Spotify SDK.
+- You are encouraged to use the Spotify SDK.
 
 ## Submission
 Please provide a zip of the source code with which we can easily build locally and test out ourselves.
