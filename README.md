@@ -1,44 +1,39 @@
 # iOS Assignment
+## Objective
+The Rijksmuseum in Amsterdam showcases one of the most famous paintings in the world: De Nachtwacht - or: The Night Watch in English - painted by Rembrandt van Rijn. To make their collection more accessible, the Rijksmuseum exposed their collection through an open API. 
 
-You are probably familiar with the Spotify service. It's the biggest music streaming platform in the world and they have a nice and well documented API that you will be using in this assignment.
+For this assignment we ask you to create an iOS application that lets the user search and retrieve data from the Rijksmuseum API.
 
-We ask you to implement an iOS application that performs login and search with Spotify and some further data.
-The user can be yourself or a newly set up account. Please ask us if you need help setting this up.
-
+## Project
 The app should consist of the following parts:
-- Login Screen
-- Search Screen - consisting of a search bar and a list of
-results
-- Artist or Track page - consisting of the name, image, and 2 or more interesting fields from either an artist or a track item (note: you don't have to support both types)
+- Search Screen
+    - consisting of a search bar and a list of results. The user should be able to make a query and get the art objects for that query.
+- Art object detail page 
+    - consisting of the title, image, and 2 or more interesting fields of the art object.
+    - A way to mark the object as favourite
+- Favourites pages
+    - A list of the users favourited art objects.
 
-You're free to use whatever libraries you wish to get the job done (e.g. Spotify SDK), however you should consider if it prevents us from being able assess the quality of your work.
+**Tips**
+- Not sure what to search for? Check out this [list of painters](https://en.wikipedia.org/wiki/List_of_painters_in_the_collection_of_the_Rijksmuseum) in the collection of the Rijksmuseum
 
-API reference:
-- [Search](https://beta.developer.spotify.com/documentation/web-api/reference/search/search/)
-- [Tracks](https://beta.developer.spotify.com/documentation/web-api/reference/tracks/)
-- [Artists](https://beta.developer.spotify.com/documentation/web-api/reference/artists/)
+**API Reference**
+- [Documentation for the API](https://data.rijksmuseum.nl/object-metadata/api/). Everything you need to access the API should be on this page
+- [How to get an API key](https://data.rijksmuseum.nl/object-metadata/api/#access-to-apis)
 
 ## Requirements
+**Caching**
+* The app must perform some sort of caching of fetched API data, if a screen is reloaded we should expect to see the cached data before the refetched data
 
-### Networking
-- The app must perform HTTP requests on at least one endpoints
-of the Spotify API
+**Responsiveness**
+* The UI must be updated in real-time, according to the refresh rule explained above.
 
-### Caching
-- The app must perform some sort of caching of fetched API data, if a screen is reloaded we should expect to see the cached data before the refetched data
+**Resilience**
+* The user should be informed if an error occurred while fetching data.
+* If no network is available when a request is due, the app should park the call and perform it as soon as network is back.
 
-### Responsiveness
-- The UI must be updated in real-time, according to the refresh rule explained above.
-
-### Resilience
-- The user should be informed if an error occurred while fetching data.
-- If no network is available when a request is due, the app should park the call and perform it as soon as network is back.
-
-### UI
-- You can decide on your own how will the app look, if you need a guide, feel free to look at the TicketSwap app as an example.
-
-### Third party libraries
-- You are encouraged to use the Spotify SDK.
+**UI**
+* You can decide on your own how will the app look, if you need a guide, feel free to look at the TicketSwap app as an example.
 
 ## Submission
 Please provide a zip of the source code with which we can easily build locally and test out ourselves.
