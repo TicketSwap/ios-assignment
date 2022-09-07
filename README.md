@@ -10,9 +10,11 @@ The app should consist of the following parts:
     - consisting of a search bar and a list of results. The user should be able to make a query and get the art objects for that query.
 - Art object detail page 
     - consisting of the title, image, and 2 or more interesting fields of the art object.
-    - A way to mark the object as favourite
-- Favourites pages
-    - A list of the users favourited art objects.
+    
+**Bonus: mark as favourite feature.**
+Note: please only do this if you have time left. This is only an extra.
+- Add a way to mark objects as favourite
+- Implement a page which retrieves a list of the user's favourite objects
 
 **Tips**
 - Not sure what to search for? Check out this [list of painters](https://en.wikipedia.org/wiki/List_of_painters_in_the_collection_of_the_Rijksmuseum) in the collection of the Rijksmuseum
@@ -34,6 +36,9 @@ The app should consist of the following parts:
 
 **UI**
 * You can decide on your own how will the app look, if you need a guide, feel free to look at the TicketSwap app as an example.
+
+## Third party libraries
+You're free to use whatever libraries you wish to get the job done, however you should consider if it prevents us from being able assess the quality of your work.
 
 ## Submission
 Please provide a zip of the source code with which we can easily build locally and test out ourselves.
