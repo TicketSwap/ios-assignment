@@ -23,6 +23,9 @@ Note: please only do this if you have time left. This is only an extra.
 - [Documentation for the API](https://data.rijksmuseum.nl/object-metadata/api/). Everything you need to access the API should be on this page
 - [How to get an API key](https://data.rijksmuseum.nl/object-metadata/api/#access-to-apis)
 
+**Time boxing**
+You can make the assessment in your own time. We usually give around 1 week for it. We want to respect your time, so spend between 2 and 5 hours on the assignment itself. It is fine to hand in an assignment that is not completely finished, but we think that with the allotted time it should be doable.
+
 ## Requirements
 **Caching**
 * The app must perform some sort of caching of fetched API data, if a screen is reloaded we should expect to see the cached data before the refetched data
@@ -49,5 +52,3 @@ Please provide a zip of the source code with which we can easily build locally a
 - Some demonstration of testing would be nice.
 - We recommend you to test your solution on real hardware.
 - Document your API and classes where you think it is necessary.
-
-You can make the assessment in your own time. We usually give around 1 week for it.
