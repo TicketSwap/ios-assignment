@@ -1,4 +1,7 @@
 # iOS Assignment
+
+This assignment is deprecated. [This](https://github.com/TicketSwap/mobile-assignment-backend) is the new assignment.
+
 ## Objective
 The Rijksmuseum in Amsterdam showcases one of the most famous paintings in the world: De Nachtwacht - or: The Night Watch in English - painted by Rembrandt van Rijn. To make their collection more accessible, the Rijksmuseum exposed their collection through an open API. 
 
